@@ -30,13 +30,21 @@ Zonas de búsqueda directa: Contienen las asignaciones de los nombres de dominio
 Son instrucciones radicadas en servidores DNS autoritativos que proporcionan información sobre un dominio, como la dirección IP asociada con este y cómo gestionar solicitudes dirigidas a dicho dominio.
 
 -**Registro A:** registro que contiene la dirección IP de un dominio.
+
 -**Registro AAAA:** El registro que contiene la dirección IPv6 de un dominio (a diferencia de los registros A, que enumeran la dirección IPv4).
+
 -**Registro CNAME:** reenvía un dominio o subdominio a otro dominio, NO proporciona una dirección IP. 
+
 -**Registro MX:** dirige el correo a un servidor de correo electrónico.
+
 -**Registro TXT:** Permite que un administrador pueda almacenar notas de texto en el registro. Estos registros se suelen utilizar para la seguridad del correo electrónico.
+
 -**Registro NS:** almacena el servidor de nombres para una entrada DNS.
+
 -**Registro SOA:** almacena la información del administrador sobre un dominio.
+
 -**Registro SRV:** especifica un puerto para servicios específicos.
+
 -**Registro PTR:** proporciona un nombre de dominio en búsquedas inversas.
 
 # Funcionamiento
