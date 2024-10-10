@@ -11,7 +11,9 @@ El DNS (Domain Name System, Sistema de Nombres de Dominio) es un conjunto de pro
 
 ## Niveles de dominio
 -**El primer nivel** (TLD, Top Level Domain o Dominio de Nivel Superior) es el que hay a la derecha del todo. Como por ejemplo “.es” en “www.aspl.es”.
+
 -**El segundo nivel** (dominio), es el TLD mas el nombre que hay al lado. En “www.aspl.es” sería “aspl.es”.
+
 -**El tercer nivel** (nombre de máquina o subdominio) se forma con los 3 niveles juntos. En el ejemplo de “www.aspl.es” sería “www.aspl.es”.
 
 ## Zonas de busqueda
