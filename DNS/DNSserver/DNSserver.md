@@ -2,6 +2,8 @@
 
 -**Comandos Utilizados** :
 
+Siguiendo el video:
+
 - sudo apt-get install bind9 -> Instalamos bind9 
 
 ![InstalacionBind9.jpg](InstalacionBind9.jpg)
@@ -33,6 +35,33 @@
 - dig @localhost prueba.com
 ![final.jpg](final.jpg)
 
-Todo esto es siguiendo el video.
 
 
+
+Ahora siguiendo los apuntes:
+
+- sudo nano /etc/bind/named.conf.options
+![nanoOptions.jpg](nanoOptions.jpg)
+![cambiado.jpg](cambiado.jpg)
+
+
+- sudo nano /etc/bind/named.conf.local
+![cambiado.jpg](nanoLocal.jpg)
+
+- sudo cp /etc/bind/db.local /etc/bind/db.prueba.com
+![cp.jpg](cp.jpg)
+
+- sudo nano /etc/bind/db.prueba.com
+![nano2.jpg](nano2.jpg)
+![nano2cambiado.jpg](nano2cambiado.jpg)
+
+- sudo nano /etc/resolv.conf
+![resolv.jpg](resolv.jpg)
+
+- sudo systemctl restart bind9
+- dig @localhost prueba.com
+![dig.jpg](dig.jpg)
+
+- nslookup prueba.com localhost
+- nslookup prueba.com 10.0.2.15
+![nslookup.jpg](nslookup.jpg)
