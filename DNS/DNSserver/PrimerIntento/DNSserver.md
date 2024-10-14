@@ -41,7 +41,7 @@ Siguiendo el video:
 Ahora siguiendo los apuntes:
 
 - sudo nano /etc/bind/named.conf.options
-![1.jpg](DNS\DNSserver\Imagen\1.jpg)
+![1.jpg](1.jpg)
 ![1cambiado.jpg](1cambiado.jpg)
 
 
@@ -52,7 +52,7 @@ Ahora siguiendo los apuntes:
 ![cp.jpg](cp.jpg)
 
 - sudo nano /etc/bind/db.prueba.com
-![nano2.jpg](DNS\DNSserver\Imagen\nano2.jpg)
+![nano2.jpg](nano2.jpg)
 ![nano2cambiado.jpg](nano2cambiado.jpg)
 
 - sudo nano /etc/resolv.conf
@@ -69,30 +69,3 @@ Ahora siguiendo los apuntes:
 
 
 
-Ahora siguiendo los apuntes:
-
-- sudo nano /etc/bind/named.conf.options
-![1.jpg](DNS\DNSserver\Imagen\1.jpg)
-![1cambiado.jpg](DNS\DNSserver\Imagen\1cambiado.jpg)
-
-
-- sudo nano /etc/bind/named.conf.local
-![local.jpg](DNS\DNSserver\Imagen\local.jpg)
-
-- sudo cp /etc/bind/db.local /etc/bind/db.prueba.com
-![cp.jpg](DNS\DNSserver\Imagen\cp.jpg)
-
-- sudo nano /etc/bind/db.prueba.com
-![nano2.jpg](DNS\DNSserver\Imagen\nano2.jpg)
-![nano2cambiado.jpg](DNS\DNSserver\Imagen\nano2cambiado.jpg)
-
-- sudo nano /etc/resolv.conf
-![resolv.jpg](DNS\DNSserver\Imagen\resolv.jpg)
-
-- sudo systemctl restart bind9
-- dig @localhost prueba.com
-![dig.jpg](DNS\DNSserver\Imagen\dig.jpg)
-
-- nslookup prueba.com localhost
-- nslookup prueba.com 10.0.2.15
-![nslookup.jpg](DNS\DNSserver\Imagen\nslookup.jpg)
