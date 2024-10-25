@@ -3,18 +3,18 @@
 -**COMANDOS UTILIZADOS**
 
 - sudo apt-get update
-![PrimerPaso.png](PrimerPaso.png)
+![PrimerPaso.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio1/PrimerPaso.png)
 
 
 
 - sudo apt-get install ca-certificates curl
-![SegundoPaso.png](SegundoPaso.png)
+![SegundoPaso.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio1/SegundoPaso.png)
 
 - sudo install -m 0755 -d /etc/apt/keyrings
 - sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
 - sudo chmod a+r /etc/apt/keyrings/docker.asc
 
-![Paso3.png](Paso3.png)
+![Paso3.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio1/Paso3.png)
 
 Lo hago en cmd del oredandor:
 
@@ -24,13 +24,13 @@ Lo hago en cmd del oredandor:
 
 
 - sudo chmod a+r /etc/apt/keyrings/docker.asc
-![]()
+![daError6.png](daError6.png)
 
 echo \
   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
   $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-![]()
+![deNuevo7.png](deNuevo7.png)
 
 - sudo apt-get update
 ![]()
