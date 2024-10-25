@@ -19,7 +19,7 @@
 Lo hago en cmd del oredandor:
 
 - sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
-![]()
+![5.png](5.png)
 
 
 
