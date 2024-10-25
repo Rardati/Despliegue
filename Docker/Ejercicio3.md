@@ -28,6 +28,6 @@ Para salir de él presionando Ctrl + D.
 
 
 ## Mostrar el fichero /etc/os-release sin entrar en el contenedor:
--sudo docker exec ubuntu cat 7etc/os-release
+-sudo docker exec ubuntu cat /etc/os-release
 
 ![5.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio3/5.png)
