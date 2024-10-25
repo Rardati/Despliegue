@@ -11,8 +11,12 @@
 ![SegundoPaso.png](SegundoPaso.png)
 
 - sudo install -m 0755 -d /etc/apt/keyrings
+- sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+- sudo chmod a+r /etc/apt/keyrings/docker.asc
+
 ![Paso3.png](Paso3.png)
 
+Lo hago en cmd del oredandor:
 
 - sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
 ![]()
