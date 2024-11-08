@@ -39,11 +39,6 @@ Verificamos su existencia y contenido
 
 
 - Arrancar un contenedor que se llame bbdd y que ejecute una instancia de la imagen mariadb para que sea accesible desde el puerto 3336.
-
-
-
-
-
 - Antes de arrancarlo visitar la página del contenedor en Docker Hub (https://hub.docker.com/_/mariadb) y establecer las variables de entorno necesarias para que:
     - La contraseña de root sea root.
     - Crear una base de datos automáticamente al arrancar que se llame prueba.
@@ -51,4 +46,10 @@ Verificamos su existencia y contenido
 
 
 
-    
+ sudo docker run --name bbdd -d -p 3336:3306 \
+-e MARIADB_ROOT_PASSWORD=root \
+-e MARIADB_DATABASE=prueba \
+-e MARIADB_USER=invitado \
+-e MARIADB_PASSWORD=invitado mariadb
+
+![mariadb.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio4/mariadb.png)
