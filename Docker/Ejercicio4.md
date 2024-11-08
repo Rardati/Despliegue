@@ -10,12 +10,20 @@ Para ello primero he de descargar la imagen
 ![Imagenphp.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio4/Imagenphp.png)
 
 Ejecuta el siguiente comando para crear y arrancar el contenedor:
-- docker run --name web -p 8181:80 -d php:7.3-apache
+- sudo docker run --name web -p 8181:80 -d php:7.3-apache
 ![dockerRun.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio4/dockerRun.png)
 
 Podemos verificar si el contenedor se está ejecutando correctamente con el siguiente comando:
-- docker ps
+- sudo docker ps
 ![dockerps.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio4/dockerps.png)
+
+Acceder al contenedor:
+- sudo docker exec -it web /bin/bash
+![exec.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio4/exec.png)
+
+Crear archivo:
+- echo "<h1>HOLA SOY TU NOMBRE Y APELLIDOS</h1>" > /var/www/html/index.html
+![echo.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio4/echo.png)
 
 
 - Colocar en ese mismo directorio raíz un archivo llamado index.php con el siguiente contenido: &lt;?php phpinfo(); ?>
