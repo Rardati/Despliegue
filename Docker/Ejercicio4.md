@@ -33,7 +33,8 @@ Crear archivo:
 - Colocar en ese mismo directorio raíz un archivo llamado index.php con el siguiente contenido: &lt;?php phpinfo(); ?>
 ![php.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio4/php.png)
 
-Verificamos su existencia y contenido: - ls -l index.php 
+Verificamos su existencia y contenido: 
+- ls -l index.php 
 
 
 ![ls.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio4/ls.png)
