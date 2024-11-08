@@ -35,6 +35,8 @@ Crear archivo:
 
 Verificamos su existencia y contenido
 - ls -l index.php
+
+
 ![ls.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio4/ls.png)
 
 
