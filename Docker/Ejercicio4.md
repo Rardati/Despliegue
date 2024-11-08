@@ -53,3 +53,4 @@ Verificamos su existencia y contenido
 -e MARIADB_PASSWORD=invitado mariadb
 
 ![mariadb.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio4/mariadb.png)
+![completado.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio4/completado.png)

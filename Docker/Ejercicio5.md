@@ -6,3 +6,5 @@ Partiendo de los contenedores en ejecución de la tarea anterior y ejecutando la
 - Redirección de puertos del contenedor web.
 - Dirección IP del contenedor bbdd.
 - Redirección de puertos del contenedor bbdd
+
+
