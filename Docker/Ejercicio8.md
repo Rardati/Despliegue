@@ -21,7 +21,13 @@ Seguimos con el tema de la persistencia de datos:
 
 
 2. Una vez hecho esto arrancar dos contenedores basados en la imagen php:7.4-apache que hagan un **bind mount** de la carpeta saludo en la carpeta /var/www/html del contenedor.
+- usamos el comando:sudo docker run -d --name c2 -p 8181:80 -v $(pwd)/saludo:/var/www/html php:7.4-apache
+- usuamos el comando: sudo docker run -d --name c3 -p 8282:80 -v $(pwd)/saludo:/var/www/html php:7.4-apache
+![Paso2.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio8/Paso2.png)
 
 
+- Me daba algun que otro conflicto, pero al final funciona
+![Paso3.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio8/Paso3.png)
+![Paso3b.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio8/Paso3b.png)
 
-3. Uno de ellos deberá redireccionar su puerto 80 al 8181 y el otro al 8282. Y su nombres serán c1 y c2.
+
