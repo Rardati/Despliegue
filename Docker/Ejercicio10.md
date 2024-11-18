@@ -46,6 +46,9 @@ Instalamos el paquete adduser y luego creamos el usuario:
 ![Paso2.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/Paso2.png)
 
 
+- docker push TuNombreUsuarioDockerHub/a61:latest
+![Paso2b.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/Paso2b.png)
+
 
 
 ## 2a Parte
