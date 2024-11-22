@@ -59,7 +59,8 @@ Instalamos el paquete adduser y luego creamos el usuario:
 
 1. Partiendo de la imagen php:7.4-apache construir un Dockerfile que realice lo siguiente:
     - Instalar nano (apt install -y nano)
-
+![dosPasos.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/dosPasos.png)
+![nanoGit.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/nanoGit.png)
 
 
 
