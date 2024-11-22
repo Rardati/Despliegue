@@ -51,6 +51,7 @@ Instalamos el paquete adduser y luego creamos el usuario:
 
 
 - docker push rardati601DockerHub/a61:latest
+Esto ya da error....
 ![Paso2b.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/Paso2b.png)
 
 
