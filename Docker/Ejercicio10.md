@@ -42,7 +42,7 @@ Instalamos el paquete adduser y luego creamos el usuario:
 
 - Comandos utilizados:
 - sudo docker login
-![login.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/login.png)
+![Login.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/Login.png)
 
 
 - sudo docker commit ubuntu_container rardati601DockerHub/a61:latest
