@@ -41,12 +41,16 @@ Instalamos el paquete adduser y luego creamos el usuario:
 2. Tras realizar dichas instalaciones y utilizando la orden docker commit crear una imagen que se llame de la siguiente manera: TuNombreUsuarioDockerHub/a61 y subirla a DockerHub utilizanzo la orden docker push. Recordad que antes tendréis que hacer docker login.
 
 - Comandos utilizados:
-- sudo docker commit ubuntu_container TuNombreUsuarioDockerHub/a61:latest
+- sudo docker login
+![login.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/login.png)
+
+
+- sudo docker commit ubuntu_container rardati601DockerHub/a61:latest
 
 ![Paso2.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/Paso2.png)
 
 
-- docker push TuNombreUsuarioDockerHub/a61:latest
+- docker push rardati601DockerHub/a61:latest
 ![Paso2b.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/Paso2b.png)
 
 
@@ -55,9 +59,17 @@ Instalamos el paquete adduser y luego creamos el usuario:
 
 1. Partiendo de la imagen php:7.4-apache construir un Dockerfile que realice lo siguiente:
     - Instalar nano (apt install -y nano)
+
+
+
+
     - Instalar git (apt install -y git)
     - Colocar en el directorio raíz del servidor apache (/var/www/html) dos ficheros:
         - index.html que contenga HOLA SOY XXXXXX sustituyendo XXXXX por tu nombre
         - info.php que contengo el siguiente código &lt;? php phpinfo(); ?>
+
+
+
+
 
 2. Una vez creado dicho Dockerfile construir la imagen, que se deberá llamar TuNombreUsarioDockerHub/a62.
