@@ -65,7 +65,7 @@ Instalamos el paquete adduser y luego creamos el usuario:
         - info.php que contengo el siguiente código &lt;? php phpinfo(); ?>
 
 ![dosPasos.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/dosPasos.png)
-![nanoGit.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/nanoGit.png)
+
 
 
 
