@@ -45,7 +45,7 @@ Instalamos el paquete adduser y luego creamos el usuario:
 ![Paso2a.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/Paso2a.png)
 
 
-- sudo docker commit mi_contenedor rardati/a61
+- sudo docker commit ubuntu_container rardati/a61
 - sudo docker push rardati/a61
 ![Paso2b.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/Paso2b.png)
 
