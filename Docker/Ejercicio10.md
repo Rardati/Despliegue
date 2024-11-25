@@ -50,9 +50,14 @@ Instalamos el paquete adduser y luego creamos el usuario:
 ![Paso2b.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/Paso2b.png)
 
 
-- docker push rardati601DockerHub/a61:latest
-Esto ya da error....
-![Paso2b.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/Paso2b.png)
+
+-  Como nos da error repetimos el proceso.Comandos Utilizados
+- sudo groupadd docker
+- sudo usermod -aG docker raquel
+- newgrp docker
+- docker push rardati/a61:2.0
+
+![Paso2c.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/Paso2c.png)
 
 
 
