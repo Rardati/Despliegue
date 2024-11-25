@@ -70,7 +70,7 @@ Instalamos el paquete adduser y luego creamos el usuario:
         - index.html que contenga HOLA SOY XXXXXX sustituyendo XXXXX por tu nombre
         - info.php que contengo el siguiente código &lt;? php phpinfo(); ?>
 
-![dosPasos.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/dosPasos.png)
+
 
 
 
