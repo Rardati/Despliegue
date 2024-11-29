@@ -77,20 +77,35 @@ Instalamos el paquete adduser y luego creamos el usuario:
 
 - mkdir imagen-php
 - cd imagen-php
-- nano Dockerfile
+
 ![imagen1.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/imagen1.png)
+
+
+- nano Dockerfile:
+
+![nano.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/nano.png)
+
+
 
 
 2. Una vez creado dicho Dockerfile construir la imagen, que se deberá llamar TuNombreUsarioDockerHub/a62.
 
 - docker build -t rardati/a62 .
+
+
 ![dockerbuild.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/dockerbuild.png)
 
 - docker images
+
+
 ![dockerImages.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/dockerImages.png)
 
 - docker Login
+
+
 ![DLogin.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/DLogin.png)
 
 - docker push rardati/a62
+
+
 ![push.png](https://github.com/Rardati/Despliegue/blob/main/Docker/Ejercicio10/push.png)
