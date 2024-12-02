@@ -30,6 +30,10 @@ Otros comandos:(C7)
 
 
 - sudo docker-compose up -d
+- sudo docker ps
+
+
+
 
 
 - Reinicia los contenedores y verifica que los datos persisten
