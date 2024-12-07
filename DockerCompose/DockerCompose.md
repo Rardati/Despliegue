@@ -30,7 +30,7 @@
 
 
 - nano mySqlScript.
-![Paso7.jpg](https://github.com/Rardati/Despliegue/blob/main/DockerCompose/DockerCompose/PAso7.jpg)
+![Paso7.jpg](https://github.com/Rardati/Despliegue/blob/main/DockerCompose/DockerCompose/Paso7.jpg)
 ![nanoSQL.jpg](https://github.com/Rardati/Despliegue/blob/main/DockerCompose/DockerCompose/nanoSQL.jpg)
 
 
