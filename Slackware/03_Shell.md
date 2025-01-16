@@ -1,5 +1,8 @@
 ## Exercise 3.1 Creating an executable bash script 
 **Parte1**
+
+-Capturas:
+
 ![Captura1.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/Capturas/Captura1.png)
 ![Captura2.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/Capturas/Captura2.png)
 ![Captura3.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/Capturas/Captura3.png)
@@ -54,6 +57,8 @@ Funciona porque le puse de permiso chmod 777
 
 4. Execute ./bob.sh and explain the result you get.
 ![Captura8c.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/Capturas/Captura8c.jpg)
+
+Permite ver “Hello this is Bob” porque tiene permiso de ejecucion sobre el script.
 
 **What do you see in this directory?**
 ![ls-l.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/Capturas/ls-l.jpg)
