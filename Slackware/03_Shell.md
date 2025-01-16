@@ -42,7 +42,7 @@ Así el usuario tendría más seguridad con sus archivos y directorios.
 ## Exercise 3.4 Accessing files from different user accounts 
 **a) Press [Ctrl] + [Alt] + [F2] and log in as bob**
 1. Navigate to the directory /home/ncs. 
-Se ve que me salte algún paso anterior, he tenido que volver hacerlo.
+- Se ve que me salte algún paso anterior, he tenido que volver hacerlo.
 
 
 ![Captura8.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/Capturas/Captura8.jpg)
