@@ -15,8 +15,9 @@ Así el usuario tendría más seguridad con sus archivos y directorios.
 **username: bob, password: bob**
 ![Captura4.jpg](https://github.com/Rardati/Despliegue/tree/main/Slackware/Capturas/Captura4.jpg)
 ![Captura4a.jpg](https://github.com/Rardati/Despliegue/tree/main/Slackware/Capturas/Captura4a.jpg)
-**username: smith, password: smith**
 
+**username: smith, password: smith**
+![Captura5.jpg](https://github.com/Rardati/Despliegue/tree/main/Slackware/Capturas/Captura5.jpg)
 
 ## Exercise 3.3 Creating a shared executable script 
 
