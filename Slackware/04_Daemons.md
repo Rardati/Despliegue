@@ -1,5 +1,6 @@
 ## Exercise 4.1 Exploring currently running processes
-
+- ps aux 
+- top
 
 
 
