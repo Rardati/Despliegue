@@ -66,6 +66,8 @@ la identificaci√≥n y accesibilidad de sitios web y direcciones de correo electr√
 ## Exercise 4.4 Processes and networking
 
 
+![Cinstalltelnet.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapturasD/Cinstalltelnet.png)
+![Cnano.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapturasD/Cnano.png)
 
 
 
