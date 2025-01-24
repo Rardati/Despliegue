@@ -1,4 +1,8 @@
 ## Exercise 4.1 Exploring currently running processes
+- instalar openbsd-inetd
+![Captura1.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/Capturas/Captura1.png)
+
+
 - ps aux 
 - top
 
