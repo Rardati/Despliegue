@@ -13,6 +13,21 @@
 - Me da error
 ![Error.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapturasE/Error.jpg)
 
+- Instalamos el paquete postfix
+![C1b.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapturasE/C1b.jpg)
+
+- Vuelvo a crear un archivo llamado message.txt con un mensaje para Bob
+![C3.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapturasE/C3.jpg)
+
+- Modifico el mensaje 
+![C3nano.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapturasE/C3nano.jpg)
+
+- Enviamos el correo con el siguiente comando
+![C3b.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapturasE/C3b.jpg)
+
+
+
+
 **Parte 2**
 - echo "Welcome to Network Computer Systems" → Imprime el mensaje en pantalla y lo pasa como entrada al siguiente comando.
 - | → Redirige la salida del comando echo como entrada para mail.
