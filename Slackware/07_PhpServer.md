@@ -14,7 +14,7 @@
 
 **Exercise 7.2 Running Apache**
 
-- Parte 1
+**Parte 1**
 ¿Por qué necesitamos reiniciar httpd cuando hacemos cambios en la configuración?
 El servidor Apache necesita reiniciarse después de modificar su configuración porque:
 
@@ -23,7 +23,7 @@ Los cambios en los archivos de configuración no se reflejan automáticamente en
 Un reinicio asegura que el proceso lea y aplique la nueva configuración
 Es una forma garantizada de aplicar todas las modificaciones simultáneamente
 
-- Parte 2
+**Parte 2**
 **A. ¿Qué hace el comando ps aux? ¿Y el comando grep httpd? ¿Qué significa el símbolo “|”? Entonces, explica qué hace el comando ps aux | grep httpd**
 ps aux: Este comando muestra información sobre todos los procesos que están en ejecución en el sistema. 
 - a significa "todos los usuarios", 
@@ -51,9 +51,15 @@ o solo verás la línea que contiene el propio comando grep, ya que grep tambié
 - ps aux | grep httpd
 
 
+**Parte 3**
+ps axl | egrep "httpd|PPID"
+
+
 
 **Exercise 7.3 Creating HTMLfiles**
+**¿Qué tienen de especial los archivos index.htm e index.html?**
 
+Son los archivos predeterminados que Apache carga cuando se accede a un directorio sin especificar un archivo.
 
 **Exercise 7.4 Viewing HTML files using a terminalinterface**
 
