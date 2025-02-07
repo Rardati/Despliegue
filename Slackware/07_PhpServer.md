@@ -65,6 +65,7 @@ Es útil para ver si el servidor Apache está funcionando.
 - Si httpd no está en ejecución: Si no hay procesos de httpd en ejecución, no verás ninguna salida, 
 o solo verás la línea que contiene el propio comando grep, ya que grep también aparecerá en la lista de procesos. 
 - ps aux | grep httpd
+![grephttp.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/grephttp.png)
 
 
 **Parte 3**
