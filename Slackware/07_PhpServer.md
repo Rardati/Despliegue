@@ -1,16 +1,28 @@
 ## PHP SERVER
 
-**Exercise 7.1 Configuring Apache** -> este No
+**Exercise 7.1 Configuring Apache** 
 
 - sudo apt install apache2
+![CInstall.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/CInstall.png)
+
 - sudo apt install php8.2 libapache2-mod-php8.2
+![CInstall2.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/CInstall2.png)
+
 - sudo a2enmod php8.2
+![CInstall3.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/CInstall3.png)
+
 - sudo nano /etc/apache2/apache2.conf 
-- sudo nano /etc/apache2/sites-available/000-default.conf -> Aqui modificamos el DocumenteRoot, y ServerName
+- sudo nano /etc/apache2/sites-available/000-default.conf 
+![nano.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/nano.png)
+![NanoModificado.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/NanoModificado.png)
+
+
 - sudo systemctl restart apache2
+![restartApa.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/restartApa.png)
+
 - grep -i "DocumentRoot" /etc/apache2/*
 - grep -i "ServerName" /etc/apache2/*
-
+![DocumentServer.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/DocumentServer.png)
 
 **Exercise 7.2 Running Apache**
 
@@ -60,6 +72,11 @@ ps axl | egrep "httpd|PPID"
 **¿Qué tienen de especial los archivos index.htm e index.html?**
 
 Son los archivos predeterminados que Apache carga cuando se accede a un directorio sin especificar un archivo.
+
+
+
+
+
 
 **Exercise 7.4 Viewing HTML files using a terminalinterface**
 
