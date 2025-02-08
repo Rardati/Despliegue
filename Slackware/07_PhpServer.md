@@ -102,12 +102,20 @@ o solo verás la línea que contiene el propio comando grep, ya que grep tambié
 - ![laboratorio.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/laboratorio.jpg)
 
 **Exercise 7.5 Creating and viewing PHP files using a terminal interface**
+**¿Qué hace phpinfo();?**
 
+- Muestra información detallada sobre la configuración de PHP en el servidor.
+
+**Crea un archivo llamado nse.php con el siguiente contenido:**
+
+- ![php.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/php.jpg)
 
 **Exercise 7.6 Exploring and adding an entry to the hosts file**
 
+-  ![nanoultimo.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/nanoultimo.jpg)
+- ![final.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/final.jpg)
+
 
 **Exercise 7.7 Optional exercises**
-
 
 
