@@ -116,6 +116,3 @@ o solo verás la línea que contiene el propio comando grep, ya que grep tambié
 - ![final.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/final.jpg)
 
 
-**Exercise 7.7 Optional exercises**
-
-
