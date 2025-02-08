@@ -78,13 +78,28 @@ o solo verás la línea que contiene el propio comando grep, ya que grep tambié
 
 - Son los archivos predeterminados que Apache carga cuando se accede a un directorio sin especificar un archivo.
 
+**Verifica los permisos y propietarios de index.html**
+![index.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/index.jpg)
 
-
-
+**Crea un nuevo archivo llamado test.html**
+- ![crearhtml.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/crearhtml.jpg)
+- ![test.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/test.jpg)
 
 
 **Exercise 7.4 Viewing HTML files using a terminalinterface**
+**Diferencias entre CLI y GUI:**
 
+- CLI (Interfaz de Línea de Comandos): Se maneja mediante comandos en una terminal.
+
+- GUI (Interfaz Gráfica de Usuario): Se usa con un entorno visual interactivo.
+
+**¿Qué tiene de especial la dirección IP 127.0.0.1?**
+
+- Es la dirección de localhost, usada para acceder a servicios locales.
+
+**Visualiza el archivo test.html en Lynx:**
+- Ejecutamos lynx 127.0.0.1/test.html
+- ![laboratorio.jpg](https://github.com/Rardati/Despliegue/blob/main/Slackware/CapApache/laboratorio.jpg)
 
 **Exercise 7.5 Creating and viewing PHP files using a terminal interface**
 
