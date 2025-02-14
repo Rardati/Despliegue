@@ -61,7 +61,7 @@ INSERT INTO nombre_tabla (columna1, columna2) VALUES ('valor1', 'valor2');
 ![Captura8Parte2b.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/mysql/Captura8Parte2b.png)
 
 
-Este es el codigo insertado en index.php
+**Este es el codigo insertado en index.php**
 <?php
 // 1. Conectar a la base de datos
 $servername = "localhost"; // El servidor donde está la base de datos
@@ -109,6 +109,9 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?> 
 
+
+
+**Explicacion del codigo del nano**
 
 Conexión a la base de datos:
 
