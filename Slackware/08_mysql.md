@@ -12,6 +12,15 @@
 
 
 **Parte 2. What are the commands to create and delete a table, and to select data from a table? What about inserting data into a table?**
+- Crear una base de datos
+
+CREATE DATABASE nombre_basedatos;
+
+- USAR la DATABASE
+
+USE nombre_basedatos;
+
+
 - Crear una tabla:
 
 CREATE TABLE nombre_tabla (
@@ -40,19 +49,16 @@ INSERT INTO nombre_tabla (columna1, columna2) VALUES ('valor1', 'valor2');
 
 
 
-
-
-
 **Exercise 8.2 Optional exercises**
 
 **Parte 1**
+![Captura8Parte2.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/mysql/Captura8Parte2.png)
+![Captura8Parte2a.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/mysql/Captura8Parte2a.png)
 
 
 **Parte 2**
 
-
-
-
+![Captura8Parte2b.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/mysql/Captura8Parte2b.png)
 
 
 Este es el codigo insertado en index.php
@@ -103,4 +109,22 @@ if ($result->num_rows > 0) {
 $conn->close();
 ?> 
 
+
+Conexión a la base de datos:
+
+$servername, $username, $password, y $dbname son las credenciales para conectarse a la base de datos MySQL.
+
+new mysqli() crea una nueva conexión a la base de datos. Si hay un error en la conexión, el script termina y muestra el mensaje de error con die().
+
+Consulta SQL:
+
+$sql = "SELECT studentid, firstname, lastname FROM users"; es la consulta que selecciona los tres campos de la tabla users.
+$result = $conn->query($sql); ejecuta la consulta y guarda los resultados en $result.
+Mostrar los resultados en una tabla HTML:
+
+Si se obtienen resultados ($result->num_rows > 0), se crea una tabla HTML con los datos de cada estudiante en la base de datos.
+El bucle while recorre cada fila de los resultados ($result->fetch_assoc()) y muestra los valores de studentid, firstname, y lastname en las celdas de la tabla.
+Cerrar la conexión:
+
+Finalmente, conn->close(); cierra la conexión a la base de datos.
 
