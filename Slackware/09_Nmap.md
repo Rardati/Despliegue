@@ -27,11 +27,11 @@ Primero instalaremos los paquetes que nos hacen falta
 **Exercise 10.1 User and system information**
 
 - Parte 1, ¿Cuántos intentos de inicio de sesión (exitosos y fallidos) ocurrieron en las últimas 48 horas?
-- Usar el comando last para obtener los registros de inicio de sesión -> last -x | grep -E 'still logged in|shutdown'
+- Usamos el comando last para obtener los registros de inicio de sesión -> last -x | grep -E 'still logged in|shutdown'
 ![CapturaParte1.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/Nmap/CapturaParte1.png)
 
 - Parte 2, ¿Cuántos reinicios del sistema ocurrieron en las últimas 48 horas?
-- Ver los reinicios -> last reboot
+- Ver los reinicios, utilizamos el comando -> last reboot
 ![CapturaParte2.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/Nmap/CapturaParte2.png)
 
 
@@ -52,7 +52,7 @@ Primero instalaremos los paquetes que nos hacen falta
 Se puede ver el contenido del archivo.
 
 
--Parte 3
+- Parte 3
 ![Parte3.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/Nmap/Parte3.png)
 Cuando mueves extra_file, el enlace simbólico extra_file_link se rompe.
 
