@@ -3,12 +3,15 @@
 Primero instalaremos los paquetes que nos hacen falta
 
 - Nmap
+
 ![Captura1.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/Nmap/Captura1.png)
 
 - Router (net-tools)
+
 ![Captura2.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/Nmap/Captura2.png)
 
 - Finger
+
 ![CapturaFinger.png](https://github.com/Rardati/Despliegue/blob/main/Slackware/Nmap/CapturaFinger.png)
 
 
